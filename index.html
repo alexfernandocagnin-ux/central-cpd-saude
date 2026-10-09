@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#031b50">
+  <meta name="description" content="Acesso rápido aos sistemas, ferramentas e serviços utilizados pela Secretaria Municipal de Saúde.">
+  <title>Central CPD Saúde | Sistemas e Serviços</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="theme.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#sites">Ir para os sistemas e serviços</a>
+  <div class="portal">
+  <header class="header">
+    <div class="header-inner shell">
+      <div class="brand" aria-label="CPD Saúde">
+        <img class="brand-symbol" src="assets/cpd-mark.svg" width="62" height="62" alt="">
+        <div class="brand-name"><strong>CPD</strong><span>Saúde</span></div>
+      </div>
+      <div class="header-label">Central de<br>Sistemas e Serviços</div>
+    </div>
+    <div class="intro shell"><div class="intro-copy">
+      <h1 id="portal-title">Central CPD Saúde</h1>
+      <p>Acesso rápido aos sistemas, ferramentas e serviços utilizados pela Secretaria Municipal de Saúde.</p>
+    </div></div>
+  </header>
+  <main id="sites" class="main shell" aria-labelledby="portal-title">
+      <section class="directory" aria-label="Sistemas e serviços">
+        <a class="site-card" href="https://downloadsistemas.streamlit.app/#sistemas-disponiveis" target="_blank" rel="noopener noreferrer" aria-label="Downloads de sistemas, site externo, abrir em nova aba">
+          <span class="download-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6v24m-8-8 8 8 8-8M10 32v8h28v-8" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="card-content">
+            <h2>Downloads de sistemas</h2>
+            <p>Instaladores, tabelas e manuais dos sistemas do SUS.</p>
+            <div class="card-footer">
+              <span class="card-action">Acessar site</span>
+              <span class="card-meta">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6m0-6-9 9M10 5H5a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Site externo · nova aba</span>
+              </span>
+            </div>
+          </div>
+        </a>
+        <a class="site-card apac-card" href="https://arquivosapac.streamlit.app/" target="_blank" rel="noopener noreferrer" aria-label="Corretor de APAC, site externo, abrir em nova aba">
+          <span class="download-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M28 5H12a3 3 0 0 0-3 3v32a3 3 0 0 0 3 3h24a3 3 0 0 0 3-3V16L28 5Z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M28 5v11h11M17 24h9m-9 6 5 5 10-10" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div class="card-content">
+            <h2>Corretor de APAC</h2>
+            <p>Ajuste seus arquivos antes do envio.</p>
+            <div class="card-footer">
+              <span class="card-action">Abrir ferramenta</span>
+              <span class="card-meta">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6m0-6-9 9M10 5H5a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1v-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                <span>Site externo · nova aba</span>
+              </span>
+            </div>
+          </div>
+        </a>
+      </section>
+  </main>
+  <div class="visual">
+      <span class="monitor-light" aria-hidden="true"></span>
+      <img class="monitor-base" src="assets/tecnologia-saude.png" width="1254" height="1254" alt="" fetchpriority="high" decoding="async" draggable="false">
+      <img class="monitor-lit" src="assets/tecnologia-saude-acesa.png" width="1254" height="1254" alt="" decoding="async" draggable="false">
+      <button class="screen-toggle" type="button" aria-label="Modo escuro" aria-pressed="false" title="Ativar modo escuro">
+        <svg class="screen-outline" viewBox="0 0 1280 1280" fill="none" aria-hidden="true">
+          <polygon points="351,100 925,434 925,879 351,544" stroke="#ffffff" stroke-width="6" vector-effect="non-scaling-stroke"/>
+        </svg>
+        <span class="screen-hint" aria-hidden="true">
+          <svg class="theme-moon" viewBox="0 0 24 24" fill="none"><path d="M20.5 13a8.5 8.5 0 0 1-9.5-9.5A8.5 8.5 0 1 0 20.5 13Z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <svg class="theme-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </span>
+      </button>
+    </div>
+</div>
+  <footer class="footer">
+    <div class="footer-inner">
+      <img src="assets/cpd-mark.svg" width="30" height="30" alt="">
+      <span>Desenvolvido pelo CPD da Saúde</span>
+    </div>
+  </footer>
+</body>
+</html>
