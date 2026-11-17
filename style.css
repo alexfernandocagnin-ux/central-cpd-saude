@@ -38,11 +38,11 @@ a { color: inherit; }
   pointer-events: none;
 }
 .header-inner {
-  min-height: 108px;
+  min-height: 84px;
   display: flex;
   align-items: center;
   gap: 26px;
-  padding-block: 22px;
+  padding-block: 14px;
   position: relative;
   z-index: 1;
 }
@@ -52,24 +52,24 @@ a { color: inherit; }
 .brand-name strong { font-size: 2.2rem; font-weight: 800; }
 .brand-name span { font-size: 1.3rem; font-weight: 800; margin-top: 2px; }
 .header-label { border-left: 1px solid #aecbfa90; padding-left: 26px; color: #ecf4ff; font-size: 1rem; font-weight: 500; line-height: 1.45; }
-.intro { position: relative; z-index: 1; padding-block: 18px 30px; }
+.intro { position: relative; z-index: 1; padding-block: 8px 22px; }
 .intro-copy { width: 55%; max-width: 780px; }
-.intro h1 { font-size: clamp(2.35rem, 4.6vw, 4.6rem); font-weight: 800; line-height: 1.12; letter-spacing: -.05em; margin: 0 0 14px; }
+.intro h1 { font-size: clamp(2.35rem, 4vw, 3.9rem); font-weight: 800; line-height: 1.12; letter-spacing: -.05em; margin: 0 0 10px; }
 .intro p { color: #c6dfff; font-size: clamp(1.05rem, 1.6vw, 1.4rem); line-height: 1.5; margin: 0; max-width: 720px; }
 .main {
   position: relative;
   z-index: 2;
-  padding-block: 34px 42px;
+  padding-block: 24px 42px;
   min-height: clamp(460px, 40vw, 570px);
 }
-.directory { width: 52%; display: grid; gap: 22px; }
+.directory { width: 52%; display: grid; gap: 16px; }
 .site-card {
   text-decoration: none;
   display: grid;
-  grid-template-columns: 112px minmax(0, 1fr);
+  grid-template-columns: 96px minmax(0, 1fr);
   align-items: center;
-  gap: 28px;
-  padding: 28px;
+  gap: 24px;
+  padding: 20px 24px;
   border: 1px solid #c4e2ff;
   border-radius: 22px;
   background: #ffffffed;
@@ -80,7 +80,7 @@ a { color: inherit; }
 .site-card:active { transform: translateY(-2px); }
 .site-card:focus-visible { outline: 3px solid #0063d7; outline-offset: 5px; }
 .download-icon {
-  width: 112px;
+  width: 96px;
   aspect-ratio: 1;
   border-radius: 22px;
   display: grid;
@@ -91,9 +91,9 @@ a { color: inherit; }
 }
 .download-icon svg { width: 60px; height: 60px; }
 .card-content { min-width: 0; }
-.card-content h2 { font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.28; font-weight: 800; letter-spacing: -.035em; margin: 0 0 10px; }
+.card-content h2 { font-size: clamp(1.4rem, 2vw, 1.9rem); line-height: 1.28; font-weight: 800; letter-spacing: -.035em; margin: 0 0 6px; }
 .card-content p { color: var(--text-muted); font-size: 1.1rem; line-height: 1.55; margin: 0; max-width: 410px; }
-.card-footer { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 20px; }
+.card-footer { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin-top: 14px; }
 .card-action {
   display: inline-flex;
   align-items: center;
